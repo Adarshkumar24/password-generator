@@ -19,13 +19,9 @@ A beautiful, secure, and user-friendly password generator built with vanilla HTM
 
 **[Try it now →](https://adarshkumar24.github.io/password-generator/)**
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-### Desktop View
-![Desktop Screenshot](https://via.placeholder.com/800x500/667eea/ffffff?text=Desktop+View)
-
-### Mobile View
-![Mobile Screenshot](https://via.placeholder.com/300x600/764ba2/ffffff?text=Mobile+View)
+![Password Generator Screenshot](page.png)
 
 ## 🛠️ Technologies Used
 
