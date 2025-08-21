@@ -1,0 +1,48 @@
+{
+  "name": "modern-password-generator",
+  "version": "2.1.0",
+  "description": "A beautiful, secure, and user-friendly password generator with modern glass-morphism design",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "dev": "python -m http.server 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarshkumar24/password-generator.git"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "security",
+    "crypto",
+    "vanilla-js",
+    "html5",
+    "css3",
+    "responsive",
+    "modern-ui",
+    "glass-morphism",
+    "password-strength",
+    "web-app"
+  ],
+  "author": {
+    "name": "Adarsh Kumar",
+    "email": "adarshkumar@example.com",
+    "url": "https://github.com/Adarshkumar24"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adarshkumar24/password-generator/issues"
+  },
+  "homepage": "https://adarshkumar24.github.io/password-generator/",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

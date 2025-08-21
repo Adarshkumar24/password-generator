@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Share Modal |Codehelp</title>
+    <title>Password Generator | Modern & Secure</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -12,41 +13,43 @@
         <h1>Password generator</h1>
 
         <div class="display-container">
-            <input readonly placeholder="Password " class="display" data-passwordDisplay>
-            <button data-copy>
-                <span data-copyMsg> </span>
-                <img src="" alt="copy" width="23" height="23">
+            <input readonly placeholder="Generated password will appear here" class="display" data-passwordDisplay>
+            <button data-copy title="Copy to clipboard">
+                <span data-copyMsg></span>
+                <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+                    <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
             </button>
         </div>
         <!-- password length section -->
         <div class="input-container">
 
-            <div class="length-contaner">
+            <div class="length-container">
                 <p>Password Length</p>
-                <p data-lengthNumber>0</p>
+                <p data-lengthNumber>10</p>
             </div>
             <!-- slider -->
-            <input type="range" min="1" max="20" class="slider" step="1" datalengthSlider >
+            <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
 
             <!-- checkboxes -->
             <div class="check">
                 <input type="checkbox" id="uppercase">
-                <label for="uppercase">Includes Uppercase letters</label>
+                <label for="uppercase">Include Uppercase letters</label>
             </div>
 
             <div class="check">
                 <input type="checkbox" id="lowercase">
-                <label for="uppercase">Includes lowercase letters</label>
+                <label for="lowercase">Include lowercase letters</label>
             </div>
 
             <div class="check">
                 <input type="checkbox" id="numbers">
-                <label for="uppercase">Includes Numbers</label>
+                <label for="numbers">Include Numbers</label>
             </div>
 
-            <div class="check" >
+            <div class="check">
                 <input type="checkbox" id="symbols">
-                <label for="uppercase">Includes Symbols</label>
+                <label for="symbols">Include Symbols</label>
             </div>
 
             <!-- stringth -->

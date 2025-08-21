@@ -1,4 +1,4 @@
-const inputslider=document.querySelector("[datalengthSlider]");
+const inputslider=document.querySelector("[data-lengthSlider]");
 const lengthdisplay=document.querySelector("[data-lengthNumber]");
 
 const passworddisplay=document.querySelector("[data-passwordDisplay]");

@@ -7,11 +7,10 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -20,160 +19,295 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:aquamarine ;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-attachment: fixed;
 }
 
 .container{
     width:90%;
-    max-width: 450px;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 h1{
-    color: whitesmoke;
-    opacity: 0.8;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-align: center;
     line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
 
 .display-container{
     position: relative;
-    background-color: black;
-    border-radius: 1rem;
-    border-bottom: 0.35 solid palevioletred;
-    margin: 1rem;
-    padding-top: 0.35rem;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .display{
     width: 100%;
     background-color: transparent;
-    padding: 1.15rem 1rem;
+    padding: 1.5rem 4rem 1.5rem 1.5rem;
     line-height: 30px;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-    /* text-align: right; */
-    padding-right: 3.25rem;
-    color: yellowgreen;
-    font-weight:600;
-    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #00ff88;
+    font-weight: 500;
     border: none;
+    outline: none;
+    font-family: 'Courier New', monospace;
 }
 
 .display-container button{
-    position: absolute ;
-    top:50%;
-    right:1.5rem;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
     transform: translateY(-50%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.display-container button:hover{
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
 
 .length-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1.5rem 0;
 }
 
 .length-container p:nth-child(1){
-    color: yellowgreen;
-    font-size: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .length-container p:nth-child(2){
-    color: yellowgreen;
+    color: #667eea;
     font-size: 1.5rem;
+    font-weight: 700;
+    background: rgba(102, 126, 234, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    min-width: 3rem;
+    text-align: center;
 }
 
 .strength-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1.75rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(102, 126, 234, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(102, 126, 234, 0.1);
 }
 
-.strength-containerp{
-    color: yellowgreen;
-    font-size: 1.5rem;  
+.strength-container p{
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 .indicator{
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius:50%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 3px solid #e0e0e0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .generateButton{
     width: 100%;
-    background-color: violet;
-    padding: 1.15rem 0;
-    text-align:center;
-    border-radius: 0.75rem;
-    border-bottom: 0.35 solid palevioletred;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1.2rem 0;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.25rem;
-    /* text-align: right; */
-    /* padding-right: 3.25rem; */
-    color: yellowgreen;
-    font-weight:600;
-    font-size: 1.5rem;
-    /* border: none; */
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    margin-top: 1rem;
+}
+
+.generateButton:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
+}
+
+.generateButton:active{
+    transform: translateY(0);
 }
 
 .check{
     display: flex;
     align-items: center;
-    margin: 1rem 0;
+    margin: 1.2rem 0;
     gap: 1rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.check:hover{
+    background: rgba(102, 126, 234, 0.05);
 }
 
 .check input{
     appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 1px solid firebrick;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #667eea;
     cursor: pointer;
     position: relative;
-    border-radius: 0.35rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background: white;
 }
 
 .check input:checked{
-    background-color: firebrick;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
 }
 
 .check input:checked::before{
-    content :'✓';
+    content: '✓';
     position: absolute;
     color: white;
-    font-size: 1.05rem;
-    font-weight: 600;
-    left:50%;
-    top:-3.5px;
-    transform: translateX(-50%) translateY(8%);
+    font-size: 1rem;
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .check label{
-    font-size: 1.25rem;
-    color: blue;
+    font-size: 1.1rem;
+    color: #2c3e50;
     letter-spacing: 0.5px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
 }
 
 .slider{
     appearance: none;
-    width:100%;
-    cursor:pointer;
-    background-color: yellow;
-    border-radius: 10rem;
-    height: 0.35rem;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(to right, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    height: 8px;
+    margin: 2rem 0 1.5rem 0;
+    outline: none;
+    transition: all 0.3s ease;
 }
 
 .slider::-webkit-slider-thumb{
     appearance: none;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    background-color: yellowgreen;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     cursor: pointer;
-} 
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+}
+
+.slider::-webkit-slider-thumb:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+/* Additional responsive and polish styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .display {
+        font-size: 1rem;
+        padding: 1.2rem 3.5rem 1.2rem 1.2rem;
+    }
+    
+    .length-container p:nth-child(1),
+    .strength-container p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Copy message styling */
+.copy-msg {
+    position: absolute;
+    top: -2.5rem;
+    right: 0;
+    background: #2c3e50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.copy-msg.active {
+    opacity: 1;
+}
+
+/* Smooth animations */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Focus states for accessibility */
+.check input:focus,
+.slider:focus,
+.generateButton:focus,
+.display:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* Better hover effects */
+.check:hover input {
+    border-color: #764ba2;
+}
+
+.check:hover label {
+    color: #667eea;
+}
