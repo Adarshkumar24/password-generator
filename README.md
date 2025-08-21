@@ -154,7 +154,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Adarsh Kumar**
 - GitHub: [@Adarshkumar24](https://github.com/Adarshkumar24)
-- LinkedIn: [Connect with me](https://linkedin.com/in/adarshkumar24)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/adarsh-pradhan-853a83255)
 
 ## 🌟 Show Your Support
 
