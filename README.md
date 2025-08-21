@@ -21,7 +21,7 @@ A beautiful, secure, and user-friendly password generator built with vanilla HTM
 
 **[Try it now on GitHub Pages →](https://adarshkumar24.github.io/password-generator/)**
 
-**[Alternative Vercel Deployment →](https://password-generator-adarsh.vercel.app/)**
+**[Alternative Vercel Deployment →](https://password-generator-qnwfklr7j-adarsh-s-projects-f86a01e7.vercel.app/)**
 
 ## 📸 Screenshot
 
