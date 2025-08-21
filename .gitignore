@@ -62,3 +62,4 @@ temp/
 
 # Package lock files (keep package-lock.json, ignore yarn.lock if using npm)
 yarn.lock
+.vercel
