@@ -36,6 +36,11 @@
     "url": "https://github.com/Adarshkumar24/password-generator/issues"
   },
   "homepage": "https://adarshkumar24.github.io/password-generator/",
+  "vercel": {
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  },
   "engines": {
     "node": ">=14.0.0"
   },

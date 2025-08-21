@@ -4,6 +4,8 @@ A beautiful, secure, and user-friendly password generator built with vanilla HTM
 
 ![Password Generator Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Adarshkumar24/password-generator) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Adarshkumar24/password-generator)
+
 ## ✨ Features
 
 - 🎨 **Modern Glass-morphism UI** - Beautiful gradient background with frosted glass effects
@@ -17,7 +19,9 @@ A beautiful, secure, and user-friendly password generator built with vanilla HTM
 
 ## 🚀 Live Demo
 
-**[Try it now →](https://adarshkumar24.github.io/password-generator/)**
+**[Try it now on GitHub Pages →](https://adarshkumar24.github.io/password-generator/)**
+
+**[Alternative Vercel Deployment →](https://password-generator-adarsh.vercel.app/)**
 
 ## 📸 Screenshot
 
@@ -53,6 +57,13 @@ php -S localhost:8000
 ```
 
 Then navigate to `http://localhost:8000`
+
+### Option 3: Deploy to Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Adarshkumar24/password-generator)
+
+1. Click the "Deploy with Vercel" button above
+2. Connect your GitHub account
+3. Your app will be automatically deployed!
 
 ## 📋 How to Use
 
